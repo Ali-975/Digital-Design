@@ -1,0 +1,44 @@
+[
+ {
+  "InstFile" : "/home/fayz/Digital-Design/FPGA_Projects/VGA_Projects/VGA_Bouncing_Square/moving block/src/top.v",
+  "InstLine" : 3,
+  "InstName" : "top",
+  "ModuleFile" : "/home/fayz/Digital-Design/FPGA_Projects/VGA_Projects/VGA_Bouncing_Square/moving block/src/top.v",
+  "ModuleLine" : 3,
+  "ModuleName" : "top",
+  "SubInsts" : [
+   {
+    "InstFile" : "/home/fayz/Digital-Design/FPGA_Projects/VGA_Projects/VGA_Bouncing_Square/moving block/src/top.v",
+    "InstLine" : 23,
+    "InstName" : "vc",
+    "ModuleFile" : "/home/fayz/Digital-Design/FPGA_Projects/VGA_Projects/VGA_Bouncing_Square/moving block/src/vga_controller.v.v",
+    "ModuleLine" : 21,
+    "ModuleName" : "vga_controller"
+   },
+   {
+    "InstFile" : "/home/fayz/Digital-Design/FPGA_Projects/VGA_Projects/VGA_Bouncing_Square/moving block/src/top.v",
+    "InstLine" : 25,
+    "InstName" : "pg",
+    "ModuleFile" : "/home/fayz/Digital-Design/FPGA_Projects/VGA_Projects/VGA_Bouncing_Square/moving block/src/pixel_generation.v.v",
+    "ModuleLine" : 3,
+    "ModuleName" : "pixel_generation"
+   },
+   {
+    "InstFile" : "/home/fayz/Digital-Design/FPGA_Projects/VGA_Projects/VGA_Bouncing_Square/moving block/src/top.v",
+    "InstLine" : 28,
+    "InstName" : "pll",
+    "ModuleFile" : "/home/fayz/Digital-Design/FPGA_Projects/VGA_Projects/VGA_Bouncing_Square/moving block/src/gowin_rpll/gowin_rpll.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_rPLL"
+   },
+   {
+    "InstFile" : "/home/fayz/Digital-Design/FPGA_Projects/VGA_Projects/VGA_Bouncing_Square/moving block/src/top.v",
+    "InstLine" : 32,
+    "InstName" : "clkdiv",
+    "ModuleFile" : "/home/fayz/Digital-Design/FPGA_Projects/VGA_Projects/VGA_Bouncing_Square/moving block/src/gowin_clkdiv/gowin_clkdiv.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_CLKDIV"
+   }
+  ]
+ }
+]

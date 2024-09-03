@@ -1,0 +1,39 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file '/home/fayz/Digital-Design/FPGA_Projects/VGA_Projects/VGA_Bouncing_Square/moving block/src/gowin_clkdiv/gowin_clkdiv.v'
+Analyzing Verilog file '/home/fayz/Digital-Design/FPGA_Projects/VGA_Projects/VGA_Bouncing_Square/moving block/src/gowin_rpll/gowin_rpll.v'
+Analyzing Verilog file '/home/fayz/Digital-Design/FPGA_Projects/VGA_Projects/VGA_Bouncing_Square/moving block/src/top.v'
+Undeclared symbol 'clk_100Mhz', assumed default net type 'wire'("/home/fayz/Digital-Design/FPGA_Projects/VGA_Projects/VGA_Bouncing_Square/moving block/src/top.v":29)
+Analyzing Verilog file '/home/fayz/Digital-Design/FPGA_Projects/VGA_Projects/VGA_Bouncing_Square/moving block/src/vga_controller.v.v'
+Analyzing Verilog file '/home/fayz/Digital-Design/FPGA_Projects/VGA_Projects/VGA_Bouncing_Square/moving block/src/pixel_generation.v.v'
+Compiling module 'top'("/home/fayz/Digital-Design/FPGA_Projects/VGA_Projects/VGA_Bouncing_Square/moving block/src/top.v":3)
+Compiling module 'vga_controller'("/home/fayz/Digital-Design/FPGA_Projects/VGA_Projects/VGA_Bouncing_Square/moving block/src/vga_controller.v.v":21)
+WARN  (EX3791) : Expression size 11 truncated to fit in target size 10("/home/fayz/Digital-Design/FPGA_Projects/VGA_Projects/VGA_Bouncing_Square/moving block/src/vga_controller.v.v":90)
+WARN  (EX3791) : Expression size 11 truncated to fit in target size 10("/home/fayz/Digital-Design/FPGA_Projects/VGA_Projects/VGA_Bouncing_Square/moving block/src/vga_controller.v.v":101)
+Compiling module 'pixel_generation'("/home/fayz/Digital-Design/FPGA_Projects/VGA_Projects/VGA_Bouncing_Square/moving block/src/pixel_generation.v.v":3)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 10("/home/fayz/Digital-Design/FPGA_Projects/VGA_Projects/VGA_Bouncing_Square/moving block/src/pixel_generation.v.v":53)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 10("/home/fayz/Digital-Design/FPGA_Projects/VGA_Projects/VGA_Bouncing_Square/moving block/src/pixel_generation.v.v":54)
+Compiling module 'Gowin_rPLL'("/home/fayz/Digital-Design/FPGA_Projects/VGA_Projects/VGA_Bouncing_Square/moving block/src/gowin_rpll/gowin_rpll.v":10)
+Compiling module 'Gowin_CLKDIV'("/home/fayz/Digital-Design/FPGA_Projects/VGA_Projects/VGA_Bouncing_Square/moving block/src/gowin_clkdiv/gowin_clkdiv.v":10)
+WARN  (EX1998) : Net 'clk_100Mhz' does not have a driver("/home/fayz/Digital-Design/FPGA_Projects/VGA_Projects/VGA_Bouncing_Square/moving block/src/top.v":29)
+NOTE  (EX0101) : Current top module is "top"
+[5%] Running netlist conversion ...
+WARN  (CV0016) : Input clk_100MHz is unused("/home/fayz/Digital-Design/FPGA_Projects/VGA_Projects/VGA_Bouncing_Square/moving block/src/top.v":4)
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "/home/fayz/Digital-Design/FPGA_Projects/VGA_Projects/VGA_Bouncing_Square/moving block/impl/gwsynthesis/moving block.vg" completed
+[100%] Generate report file "/home/fayz/Digital-Design/FPGA_Projects/VGA_Projects/VGA_Bouncing_Square/moving block/impl/gwsynthesis/moving block_syn.rpt.html" completed
+GowinSynthesis finish

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="top" T_Register="61(0)" T_Alu="34(0)" T_Lut="90(0)">
+ <SubModule name="vc" Register="42" Lut="37" T_Register="42(42)" T_Lut="37(37)"/>
+ <SubModule name="pg" Register="19" Alu="34" Lut="53" T_Register="19(19)" T_Alu="34(34)" T_Lut="53(53)"/>
+ <SubModule name="pll"/>
+ <SubModule name="clkdiv"/>
+</Module>
